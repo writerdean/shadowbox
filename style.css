@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+  height: 100%;
+}
+
+.board {
+  height: 25%;
+  width: 100%;
+}
+
+.square {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  height: 100%;
+  width: 25%;
+}
+
+.container {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  height: 100%;
+  width: 25%;
+}
+
+.white {
+  background-color: white;
+}
+
+.boxOne {
+  background-color: white;
+}
+
+.boxTwo {
+  background-color: white;
+}
+
+.boxThree {
+  background-color: white;
+}
+
+.color {
+  color: orangered
+}
