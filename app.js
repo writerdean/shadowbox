@@ -163,21 +163,3 @@ document.addEventListener('click', function (event) {
     chooseSquare()
   }
 }, false);
-
-
-
-
-
-
-
-
-
-
-
-
-echo "# shadowbox" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/writerdean/shadowbox.git
-git push -u origin master
